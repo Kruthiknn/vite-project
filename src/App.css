@@ -1,0 +1,45 @@
+
+body.light-mode {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.light-mode * {
+  background-color: transparent;
+  color: black !important;
+}
+
+.dark-mode * {
+  background-color: transparent;
+  color: white !important;
+}
+
+.toggle-btn {
+  position:fixed;
+  top: 25px;
+  right: 260px;
+  padding: 8px 16px;
+  z-index: 999;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
