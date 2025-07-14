@@ -1,7 +1,7 @@
 // import React, { useState } from 'react'
 import "./Navbar.css"
 import menu_icon from '../../assets/menu.png'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo1.png'
 import search_icon from '../../assets/search.png'
 import upload_icon from '../../assets/upload.png'
 import more_icon from '../../assets/more.png'
@@ -12,8 +12,6 @@ import Sidebar from '../Sidebar/Sidebar'
 import App from '../../App'
 
 const Navbar = ({setsidebar}) => {
-
-    
 
     return (
         <nav className='flex-div'>
